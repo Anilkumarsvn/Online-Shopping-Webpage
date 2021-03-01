@@ -1,0 +1,32 @@
+.formal_shirt{
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 5px;
+}
+.formal_shirts{
+	background-color: #fff;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: 15px;
+	margin: 5px; padding: 10px;
+}
+.formal_shirts:hover{
+	background-color:gray;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: 15px;
+	margin: 5px; padding: 10px;
+}
+.menshirt{
+	border: 1px solid rgba(0,0,0,.012);
+	border-radius: 15px;
+}
+.checked{
+	color: orange;
+}
+.unckecked{
+	color: gray;
+}
+.rating{
+	padding-left: 150px;
+}

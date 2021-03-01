@@ -1,0 +1,32 @@
+.main_div{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 5px;
+}
+.shoes_component{
+	background-color:white;
+	width:320px;
+	margin: 5px;
+	padding: 12px;
+	border:1px solid rgba(0,0,0, .125);
+	border-radius:15px;
+}
+.showimg{
+	border:1px solid rgba(0,0,0, .012);
+	border-radius: 15px;
+}
+.shoes_component:hover{
+	background-color: #333;
+	color: #fff;
+}
+.checked{
+ color: orange;
+}
+.unchecked{
+	color: gray;
+}
+.rating{
+padding-left: 150px;
+}
